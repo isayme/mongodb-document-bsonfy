@@ -1,4 +1,6 @@
 # mongodb-document-bsonfy
+[![Build Status](https://travis-ci.org/isayme/mongodb-document-bsonfy.svg?branch=master)](https://travis-ci.org/isayme/mongodb-document-bsonfy)
+
 A shell function that would bsonfy mongodb documents like what mongoexport does.
 
 # How To Use
