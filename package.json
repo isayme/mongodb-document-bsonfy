@@ -1,6 +1,6 @@
 {
   "name": "mongodb-document-bsonfy",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "bsonfy mongodb documents in shell like what mongoexport does",
   "main": "lib/index.js",
   "scripts": {

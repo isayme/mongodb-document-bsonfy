@@ -5,6 +5,8 @@ A shell function that would bsonfy mongodb documents like what mongoexport does.
 
 # How To Use
 
+**Do not `require` this module in node, use it in a mongo shell**
+
 ```
 // exporter-example.js
 // db.tests.insert({ ... })
