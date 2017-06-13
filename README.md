@@ -18,3 +18,7 @@ db.tests.find({}).forEach(function (doc) {
 ```
 
 > mongodb exporter-example.js
+
+# Defects
+- NumberInt not support
+  - we can't distinguish a number from `double` and `int` in mongo shell
