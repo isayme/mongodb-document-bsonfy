@@ -23,6 +23,7 @@ db.tests.find({}).forEach(function (doc) {
 ### NumberInt not support
 we can't distinguish a number from `double` and `int` in mongo shell
 
-refers:
+#### refers
 [NumberInt object wrapper is not displayed](https://jira.mongodb.org/browse/SERVER-5234)
+
 [Shell doesn't re-save retrieved integers in an array as integers (converted to 64-bit float)](https://jira.mongodb.org/browse/SERVER-5424)
