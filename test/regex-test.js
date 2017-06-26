@@ -23,4 +23,12 @@ describe('Regex', function () {
     let result = utils.mongodb.bsonfy()
     assert.equal(result, expected)
   })
+
+  it('should ok with /a/ymig', function () {
+    let shell = `db.tests.insert({k: /a/ymig})`
+    utils.mongodb.exec(shell)
+    let expected = utils.mongodb.export()
+    let result = utils.mongodb.bsonfy()
+    assert.equal(result, expected)
+  })
 })
